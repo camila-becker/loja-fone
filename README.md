@@ -23,3 +23,9 @@ Usamos para definir o cabeçalho da página.
 - `<nav>` - navegação
 
 Usamos para definir as àreas de navegação da página.
+
+# CSS
+
+É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
+
+- Visual;
