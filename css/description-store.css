@@ -1,0 +1,37 @@
+.description-store {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  float: right;
+  margin-top: 238px;
+}
+
+.description-title {
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+.description-item {
+  font-size: 24px;
+  margin-bottom: 26px;
+}
+
+.description-item.-first {
+  margin-bottom: 28px;
+}
+
+.description-item.-text {
+  font-size: 18px;
+  margin-top: 74px;
+  margin-bottom: 35px;
+  width: 554px;
+}
+
+.description-item.-button {
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.description-link {
+  text-decoration: none;
+  color: #fff;
+}

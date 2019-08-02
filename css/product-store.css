@@ -1,0 +1,18 @@
+.product-store {
+  background-color: #fff;
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+  width: 600px;
+  height: 574px;
+  position: absolute;
+  left: 0;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.headset {
+  width: 546px;
+  height: 546px;
+  margin-left: 105px;
+  margin-top: 27px;
+}
