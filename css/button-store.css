@@ -11,6 +11,7 @@
   width: 200px;
   height: 60px;
   margin-right: 0px;
+  margin-top: 98px;
   border: none;
 }
 
@@ -21,6 +22,7 @@
   line-height: 56px;
   cursor: pointer;
   margin-right: 38px;
+  margin-left: 700px;
 }
 
 .button-store > button,
