@@ -2,25 +2,27 @@
   color: #fff;
   font-family: "Lato", sans-serif;
   overflow: hidden;
+  margin-bottom: 138px;
+  padding-left: 60px;
 }
 
-.title {
+.header-store > .title {
   text-transform: uppercase;
   font-size: 40px;
   float: left;
 }
 
-.navigation {
+.header-store > .navigation {
   font-size: 21px;
   float: right;
 }
 
-.action {
+.header-store .action {
   color: inherit;
   text-decoration: none;
   margin-right: 60px;
 }
 
-.last {
+.header-store .action.-last {
   margin-right: 0px;
 }
