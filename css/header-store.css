@@ -26,3 +26,11 @@
 .header-store .action.-last {
   margin-right: 0px;
 }
+
+.header-store .action.-search {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 8px;
+  padding-left: 7px;
+  display: inline-block;
+  width: 360px;
+}
