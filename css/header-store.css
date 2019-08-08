@@ -22,10 +22,21 @@
   color: inherit;
   text-decoration: none;
   margin-right: 60px;
+  position: relative;
 }
 
-.header-store .action:hover {
+.header-store .action:after {
+  content: "";
   border-bottom: 1px solid #fff;
+  top: 25px;
+  position: absolute;
+  right: 100%;
+  left: 0;
+  transition: right 0.4s cubic-bezier(0, 0.5, 0, 1);
+}
+
+.header-store .action:hover:after {
+  right: 0;
 }
 
 .header-store .action.-last {
