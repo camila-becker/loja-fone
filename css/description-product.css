@@ -21,14 +21,17 @@
   cursor: pointer;
 }
 
-.description-product .heart:hover {
-  transform: scale(1.4);
+.description-product .icon {
+  transition: transform 100ms linear;
+}
+
+.description-product .icon:hover {
+  transform: scale(1.3);
 }
 
 .description-product > .item.-star {
   margin-bottom: 10px;
   cursor: pointer;
-  margin-right: 8px;
 }
 
 .description-product > .item.-star + .item {
@@ -51,14 +54,6 @@
 .description-product .contrast {
   text-transform: uppercase;
   float: left;
-}
-
-.description-product .star {
-  margin-right: 8px;
-}
-
-.description-product .star:hover {
-  transform: scale(1.3);
 }
 
 .description-product > .text {
