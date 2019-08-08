@@ -12,16 +12,18 @@
   height: 60px;
   margin-right: 0px;
   border: none;
+  cursor: pointer;
+  transition: all 300ms linear;
 }
 
-.button-store:hover {
-  background-color: #fff;
-  color: #252c41;
-}
-
-.button-store.-second:hover {
+.button-store:hover,
+.button-store:focus {
   background-color: #fff;
   color: #e24647;
+}
+
+.button-store:active {
+  transform: scale(0.9);
 }
 
 .button-store.-second {
@@ -29,8 +31,13 @@
   border: 2px solid #fff;
   width: 218px;
   line-height: 56px;
-  cursor: pointer;
   margin-right: 38px;
+}
+
+.button-store.-second:hover,
+.button-store.-second:focus {
+  background-color: #fff;
+  color: #e24647;
 }
 
 .button-store > button,
