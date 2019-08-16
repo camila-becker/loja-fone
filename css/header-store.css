@@ -76,9 +76,16 @@
   }
 }
 
+@media (max-width: 1315px) {
+  .header-store {
+    padding-right: 60px;
+  }
+}
+
 @media (max-width: 955px) {
   .header-store {
     padding-left: 30px;
+    padding-right: 30px;
   }
   .header-store .search {
     display: none;
@@ -100,6 +107,7 @@
 @media (max-width: 375px) {
   .header-store {
     padding-left: 16px;
+    padding-right: 16px;
   }
 
   .header-store .action {
