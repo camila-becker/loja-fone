@@ -63,6 +63,10 @@
   vertical-align: bottom;
 }
 
+.header-store .search::placeholder{
+  color: inherit;
+}
+
 @media (max-width: 1235px) {
   .header-store > .title {
     float: none;
