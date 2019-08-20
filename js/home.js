@@ -1,12 +1,12 @@
-const $button = window.document.querySelector(".-second");
-console.log($button);
+const $second = window.document.querySelector(".-second");
+console.log($second);
 
 const $cart = window.document.querySelector(".-last");
 console.log($cart);
 
-function clickButton() {
+function handleClick() {
   console.log("Clicou no botão adiciona no carrinho");
   $cart.innerHTML = "Fui clicado!";
 }
 
-$button.addEventListener("click", clickButton);
+$second.addEventListener("click", handleClick);
