@@ -11,7 +11,7 @@ const $heart = window.document.querySelector(".-heart");
 console.log($heart);
 
 function handleClick() {
-  console.log("clicou no coração");
+  $heart.classList.toggle("-active");
 }
 
 $heart.addEventListener("click", handleClick);
