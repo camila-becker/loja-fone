@@ -21,10 +21,6 @@
   cursor: pointer;
 }
 
-.description-product > .item.-active {
-  background: url(../img/heart-active.png) no-repeat;
-}
-
 .description-product .icon {
   transition: transform 100ms linear;
 }
@@ -33,9 +29,33 @@
   transform: scale(1.3);
 }
 
+.description-product .icon.-active {
+  display: none;
+}
+
+.description-product > .item.-active .icon {
+  display: none;
+}
+
+.description-product > .item.-active .icon.-active {
+  display: block;
+}
+
 .description-product > .item.-star {
   margin-bottom: 10px;
   cursor: pointer;
+}
+
+.description-product .star {
+  display: inline-block;
+}
+
+.description-product .star.-active > .icon {
+  display: none;
+}
+
+.description-product .star.-active > .-active {
+  display: block;
 }
 
 .description-product > .item.-star + .item {

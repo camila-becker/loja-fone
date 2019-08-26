@@ -6,12 +6,17 @@
   5 - No momento que o usuário clicar, nós queremos mostrar um texto AE;
 */
 
-const $heart = window.document.querySelector(".-heart");
-
+const $heart = document.querySelector(".-heart");
+const $stars = document.querySelectorAll(".star");
 console.log($heart);
-
-function handleClick() {
-  $heart.classList.toggle("-active");
-}
+console.log($stars);
 
 $heart.addEventListener("click", handleClick);
+
+$stars.forEach(function($star) {
+  $star.addEventListener("click", handleClick);
+});
+
+function handleClick() {
+  this.classList.toggle("-active");
+}
