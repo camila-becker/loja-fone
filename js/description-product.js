@@ -28,6 +28,10 @@ $stars.forEach(function($star, key) {
   }
 });
 
+function handleClick() {
+  this.classList.toggle("-active");
+}
+
 function firstStar() {
   $stars.forEach(function($star) {
     $star.classList.remove("-active");
@@ -36,11 +40,8 @@ function firstStar() {
 }
 
 function middleStar(index) {
-  $stars.forEach(function($star) {
-    $star.classList.remove("-active");
-  });
-
   $stars.forEach(function($star, key) {
+    $star.classList.remove("-active");
     if (key <= index) {
       $star.classList.add("-active");
     }
@@ -51,8 +52,4 @@ function lastStar() {
   $stars.forEach(function($star) {
     $star.classList.add("-active");
   });
-}
-
-function handleClick() {
-  this.classList.toggle("-active");
 }
