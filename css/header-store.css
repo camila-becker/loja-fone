@@ -67,6 +67,11 @@
   color: inherit;
 }
 
+.header-store .search-icon,
+.header-store .close-icon {
+  display: none;
+}
+
 @media (max-width: 1235px) {
   .header-store > .title {
     float: none;
@@ -99,11 +104,13 @@
     transform: translateX(-88%);
     border: none;
     background: url(../img/search.png) right no-repeat;
+    cursor: pointer;
 
     transition: transform 200ms linear;
   }
 
   .header-store .search.-active {
+    background: url(../img/close.png) right no-repeat;
     transition: transform 400ms cubic-bezier(0, 0, 0.96, 1.26);
     transform: translateX(0);
   }
